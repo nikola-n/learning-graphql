@@ -25,7 +25,7 @@ type User {
 }
 
 # Define the Post model
-# The "!" means it can be nullable.
+# The "!" means that they are required and cant be nullable.
 # defining the relationships with @directives
 
 type Post {
